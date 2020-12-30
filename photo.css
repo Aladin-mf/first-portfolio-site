@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+*::-moz-selection {
+  color: tomato;
+  text-shadow: 10px 7px 3px black;
+}
+
+*::selection {
+  color: tomato;
+  text-shadow: 10px 7px 3px black;
+}
+
+body {
+  font-family: 'Bangers', cursive;
+  font-size: 62.5%;
+}
+
+.main {
+  background-color: #ebe8e6;
+  font-size: 1rem;
+}
+
+.main .container {
+  width: 100%;
+  margin: auto;
+}
+
+.main .container .wrap {
+  overflow: hidden;
+}
+
+.main .container .wrap .fas, .main .container .wrap .far {
+  padding-right: .3rem;
+  color: #e93030;
+}
+
+.main .container .wrap .phone {
+  float: left;
+  width: 40%;
+  text-align: center;
+  border-left: 1px solid #ddd2d2;
+  padding: 1.35rem;
+  height: 55px;
+  margin-top: 8px;
+}
+
+.main .container .wrap .phone:hover {
+  color: tomato;
+  -webkit-transition: .15s linear;
+  transition: .15s linear;
+}
+
+.main .container .wrap .email {
+  float: left;
+  width: 58%;
+  text-align: center;
+  height: 55px;
+  margin-top: 8px;
+  padding: 1.35rem;
+  border-left: 1px solid #ddd2d2;
+}
+
+.main .container .wrap .email:hover {
+  color: tomato;
+  -webkit-transition: .15s linear;
+  transition: .15s linear;
+}
+
+.main .container .wrap .social {
+  display: none;
+  float: left;
+  width: 220px;
+}
+
+.main .container .wrap .social .fab {
+  float: left;
+  padding: 1rem;
+  border-left: 1px solid #ddd2d2;
+  height: 52px;
+  margin-top: 11px;
+}
+
+.main .container .wrap .social .fab:hover {
+  color: #4671e9;
+  -webkit-transition: .15s linear;
+  transition: .15s linear;
+}
+
+.main .container .wrap .social .fa-facebook {
+  color: #3ea9d3;
+  font-size: 1.3rem;
+}
+
+.main .container .wrap .social .fa-twitter {
+  color: #6a3cd4;
+  font-size: 1.3rem;
+}
+
+.main .container .wrap .social .fa-linkedin {
+  color: #4e3d8d;
+  font-size: 1.3rem;
+}
+
+.pmenu {
+  background: #e3f1f8;
+  overflow: hidden;
+}
+
+.pmenu .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pmenu .wrap .logo {
+  width: 6rem;
+  font-size: 2rem;
+  float: left;
+  margin-top: .5rem;
+}
+
+.pmenu .wrap .logo a:hover {
+  color: #d43c3c;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.pmenu .wrap .menu ul li {
+  float: right;
+  text-align: end;
+  list-style-type: none;
+}
+
+.pmenu .wrap .menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.pmenu .wrap .menu ul li a:hover {
+  color: #ff5233;
+}
+
+.photo {
+  background-color: #2d2d33;
+}
+
+.photo .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.photo .wrapper img {
+  width: 320px;
+  height: 100%;
+  margin: 20px;
+  border: 1px solid white;
+}
+
+.photo .wrapper .q1 {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=photo.css.map */

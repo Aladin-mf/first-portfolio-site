@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   outline: none;
+  
+   &::selection{
+        color: tomato;
+        text-shadow: 10px 7px 3px black;
+    }
+ 
+}
+
+body{
+   
+     font-family: 'Bangers', cursive;
+     font-size: 62.5%;
+ }
+ .main{ 
+     background-color: #ebe8e6;
+     font-size: 1rem;
+     .container{
+         width: 100%;
+         margin: auto;
+         .wrap{
+             overflow: hidden;
+   .fas,.far{
+                 padding-right: .3rem;
+                 color: rgb(233, 48, 48);
+   }
+.phone{
+             float: left;
+                 width: 40%;
+                 text-align: center;
+   border-left: 1px solid rgb(221, 210, 210);                 padding: 1.35rem;
+       height: 55px;
+    margin-top: 8px;
+     &:hover{
+       color: tomato;
+       transition: .15s linear;
+   }
+} 
+.email{
+float: left;
+width: 58%;
+         text-align: center;            height: 55px;
+    margin-top: 8px;
+  padding: 1.35rem;
+   border-left: 1px solid rgb(221, 210, 210);
+   &:hover{
+       color: tomato;
+       transition: .15s linear;
+   }
+}
+.social{
+    display: none;
+                  float: left;
+                 width:220px;
+            
+   .fab{
+                  float: left;
+                 padding: 1rem;
+                   border-left: 1px solid rgb(221, 210, 210);
+                    height: 52px;
+    margin-top: 11px;
+                    &:hover{
+                        color: rgb(70, 113, 233);
+                         transition: .15s linear;
+                    }
+}
+.fa-facebook{
+color: rgb(62, 169, 211);
+font-size: 1.3rem;
+}
+.fa-twitter{
+color: rgb(106, 60, 212);
+font-size: 1.3rem;
+                   
+      }
+.fa-linkedin{
+color: rgb(78, 61, 141);
+font-size: 1.3rem;
+             
+}
+      }
+   }
+  }
+ }
+ .pmenu{
+      background: rgb(227, 241, 248);
+        
+     overflow: hidden;
+     .wrap{
+          display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+         .logo{
+             width: 6rem;
+             font-size: 2rem;
+             float: left;
+             margin-top: .5rem;
+             a{
+
+           
+             &:hover{
+                 color: rgb(212, 60, 60);
+                 transition: .2s;
+             }
+              }
+         }
+         .menu{
+           
+          
+             ul{
+                 li{
+                     float: right;
+                     text-align: end;
+                     list-style-type: none;
+                     a{
+                         text-decoration: none;
+                         display: block;
+                         padding: 1rem;
+                         font-size: 1rem;
+                         &:hover{
+                             color: #ff5233;
+                         }
+                      
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+.photo{
+    background-color: rgb(45, 45, 51);
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        margin:30px;
+          flex-wrap: wrap;
+        img{
+            width:320px;
+            height: 100%;
+       margin:20px;
+            border: 1px solid white;
+
+        }
+        .q1{
+            margin-top: 20px;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,79 @@
+ <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="">call</a></li>
+                <li><a href="">picture</a></li>
+                <li><a href="">menu</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="menubtn">
+        <i class="fas fa-bars" id="fas"></i>
+    </div>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var fas = document.getElementById("fas")
+        sidenav.style.right = "-207px";
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-207px") {
+                sidenav.style.right = "0";
+            }
+            else {
+
+                sidenav.style.right = "-207px";
+
+            }
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #sidenav{
+    width: 12rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -21rem;
+    z-index: 2;
+    background-color: rgba(137, 43, 226, 0.719);
+    transition: 1s ;
+    li{
+        list-style-type: none;
+        margin: 5rem 2rem;
+     
+        a{
+            transition: .3s;
+               width: 20rem;
+   display: block;
+   padding: 1rem;
+            font-size: 1.4rem;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: rgb(255, 255, 255);
+         font-family: 'Kaushan Script', cursive;
+         letter-spacing: .15rem;
+         &:hover{
+             background-color: rgba(102, 144, 168, 0.774);
+             
+         }
+        }
+    }
+}
+
